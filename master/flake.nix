@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sayhissatsuwaza-master.flake = false;
+  inputs.src-sayhissatsuwaza-master.ref   = "refs/heads/master";
   inputs.src-sayhissatsuwaza-master.owner = "jiro4989";
-  inputs.src-sayhissatsuwaza-master.ref   = "master";
   inputs.src-sayhissatsuwaza-master.repo  = "sayhissatsuwaza";
   inputs.src-sayhissatsuwaza-master.type  = "github";
   
